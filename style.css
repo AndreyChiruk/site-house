@@ -246,3 +246,68 @@ a{
         padding-right: 30px;
     }
 }
+@media screen and (max-width: 1130px) {
+    .main_text{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 786px){
+    .main_text{
+        max-width: 450px;
+    }
+    #image{
+        max-width: 600px;
+        max-height: 350px;
+    }
+}
+@media screen and (max-width: 640px){
+    .main_about-container{
+        max-width: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .main_about-container-block:first-child{
+        margin-right: 0;
+    }
+    .second-text{
+        max-width: 400px;
+        width: 100%;
+    }
+    .main_about-block{
+        margin: 0;
+        margin-left: 30px;
+    }
+    h1.osnova_title{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 604px){
+    .osnova{
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 510px){
+    .main_text{
+        max-width: 300px;
+    }
+    .main_block{
+        margin: 0;
+        margin-left: 30px;
+        padding: 0; 
+    }
+}
+@media screen and (max-width: 450px){
+    .header_ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_li:nth-child(2){
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 410px){
+    .second-text{
+        max-width: 300px;
+    }
+}
