@@ -258,6 +258,7 @@ a{
     #image{
         max-width: 600px;
         max-height: 350px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 640px){
@@ -294,6 +295,9 @@ a{
         margin: 0;
         margin-left: 30px;
         padding: 0; 
+    }
+    .second-text{
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 450px){
