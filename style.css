@@ -151,7 +151,7 @@ main.main_vosk{
     padding-bottom: 60px;
 }
 #image, video{
-    object-fit: cover;
+    object-fit: contain;
     width: 1024px;
     height: 640px;
     border-radius: 20px;
