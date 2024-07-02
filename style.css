@@ -15,7 +15,7 @@ body{
     min-height: 949px;
     background: 
   linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), 
-  url(img/1.webp);
+  url(img/domik.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -150,7 +150,7 @@ main.main_vosk{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-#image{
+#image, video{
     object-fit: cover;
     width: 1024px;
     height: 640px;
@@ -232,6 +232,14 @@ a{
     color: white;
     text-decoration: none;
 }
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 1400px){
     .osnova{
         padding-left: 30px;
@@ -255,7 +263,7 @@ a{
     .main_text{
         max-width: 450px;
     }
-    #image{
+    #image, video{
         
         max-height: 350px;
         width: 100%;
@@ -308,7 +316,7 @@ a{
     .header_li:nth-child(2){
         margin-top: 20px;
     }
-    #image{
+    #image, video{
         max-width: 270px;
     }
 
